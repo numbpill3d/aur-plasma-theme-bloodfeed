@@ -1,0 +1,29 @@
+pkgbase = plasma-theme-bloodfeed
+	pkgdesc = Crimson VHS KDE Plasma 6 theme suite by splicer scorn (voidrane)
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/numbpill3d/bloodfeed
+	arch = any
+	license = GPL-3.0-or-later
+	depends = plasma-workspace
+	depends = kwin
+	depends = kvantum
+	depends = kde-icon-theme
+	optdepends = konsole: Konsole terminal colour scheme
+	optdepends = kitty: kitty terminal colour scheme
+	optdepends = sddm: SDDM login theme
+	optdepends = plymouth: Plymouth boot splash
+	source = plasma-theme-bloodfeed-1.0.tar.gz::https://github.com/numbpill3d/bloodfeed/archive/refs/tags/v1.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = plasma-theme-bloodfeed
+
+pkgname = sddm-theme-bloodfeed
+	pkgdesc = SDDM login theme — Crimson VHS KDE Plasma 6 theme suite by splicer scorn (voidrane)
+	depends = sddm
+	optdepends = plasma-theme-bloodfeed: the Plasma 6 half of the suite
+
+pkgname = plymouth-theme-bloodfeed
+	pkgdesc = Plymouth boot splash — Crimson VHS KDE Plasma 6 theme suite by splicer scorn (voidrane)
+	depends = plymouth
+	optdepends = plasma-theme-bloodfeed: the Plasma 6 half of the suite
